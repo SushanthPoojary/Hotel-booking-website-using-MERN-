@@ -1,0 +1,46 @@
+.header {
+    background-color: #333333;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.headerContainer {
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px;
+}
+
+.headerList {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.headerListItem {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.headerListItem.active {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.headerDesc {
+    margin: 20px 0px;
+}
+
+.headerBtn {
+    background-color: #F05454;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
