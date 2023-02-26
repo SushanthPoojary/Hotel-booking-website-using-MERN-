@@ -3,6 +3,7 @@
     color: white;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 .headerContainer {
@@ -43,4 +44,67 @@
     border-radius: 10px;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
+}
+
+.searchBar {
+    height: 30px;
+    background-color: #fff;
+    color: #333333;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0px;
+    border-radius: 5px;
+    border: 3px solid #929AAB;
+    position: absolute;
+    bottom: -22px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.searchItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+}
+
+.dateRange {
+    position: absolute;
+    top: 41px;
+}
+
+.addPeople {
+    position: absolute;
+    top: 41px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.addPeopleItem {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.addPeopleCounter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.addPeopleCounterButton {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F05454;
+    color: #fff;
+    cursor: pointer;
 }
