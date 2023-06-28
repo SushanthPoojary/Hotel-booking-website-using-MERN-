@@ -4,6 +4,8 @@ import Header from "../../components/header/Header";
 import Navbar from "../../components/navbar/Navbar";
 import "./singleHotel.css";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import EmailForm from "../../components/emailForm/EmailForm";
+import Footer from "../../components/footer/Footer";
 
 const SingleHotel = () => {
 
@@ -22,6 +24,7 @@ const SingleHotel = () => {
             <Header type="list" />
             <div className="shContainer">
                 <div className="shWrapper">
+                    <button className="bookNow">Reserve or Book Now!</button>
                     <h1 className="shTitle">Grand Hotel</h1>
                     <div className="shAddress">
                         <FontAwesomeIcon icon={faLocationDot} />
@@ -59,6 +62,8 @@ const SingleHotel = () => {
                         </div>
                     </div>
                 </div>
+                <EmailForm />
+                <Footer />
             </div>
         </div>
     )
